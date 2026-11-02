@@ -1,0 +1,15 @@
+{
+  "name": "the-brief-2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Harrington, Vale & Sterling LLP \u2014 fictional legal training workspace",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
